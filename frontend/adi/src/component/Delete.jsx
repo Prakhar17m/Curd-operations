@@ -5,7 +5,7 @@ function Delete() {
     const adi=async(e)=>{
         e.preventDefault
         const id=e.target.id.value;
-        await axios.delete(`https://curd-operations-1-xcp8.onrender.com/users/${id}`)
+        await axios.delete(`https://curd-backend-euxm.onrender.com/users/${id}`)
         alert("data delete")
     }
   return (

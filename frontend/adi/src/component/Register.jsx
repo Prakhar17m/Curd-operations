@@ -7,7 +7,7 @@ const Register = () => {
             name: e.target.name.value,
             age: e.target.age.value
         }
-        await axios.post('https://curd-operations-1-xcp8.onrender.com/users', user)
+        await axios.post('https://curd-backend-euxm.onrender.com/users', user)
        alert('User Registered Successfully')
 
     }

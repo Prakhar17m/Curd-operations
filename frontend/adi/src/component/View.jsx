@@ -6,7 +6,7 @@ const View = () => {
         viewdata();
     },[])
     const viewdata = async ()=>{
-        const res=await axios.get('https://curd-operations-1-xcp8.onrender.com/users');
+        const res=await axios.get('https://curd-backend-euxm.onrender.com/users');
         console.log(res);
         setUsers(res.data);
     }
