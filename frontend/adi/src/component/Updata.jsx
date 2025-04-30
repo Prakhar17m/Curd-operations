@@ -8,7 +8,7 @@ function Updata() {
         const name=e.target.name.value;
         const age =e.target.age.value;
         const data={name,age}
-        await axios.put(`http://localhost:9000/users/${id}`,data)
+        await axios.put(`https://curd-operations-1-xcp8.onrender.com/users/${id}`,data)
         alert("DATA UPDATE")
     }
   return (
